@@ -1,4 +1,7 @@
-body {
-    background-color: #3ae8ff;
-    font-family: Raleway, sans-serif;
-  }
+#clock {
+  background-color: cyan;
+  width: 500px;
+  height: 500px;
+  margin: auto;
+}
+
