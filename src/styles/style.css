@@ -1,7 +1,65 @@
+body {
+  background-color: #e8f9ff;
+  margin: 0px;
+  padding: 0px;
+}
 #clock {
-  background-color: cyan;
-  width: 500px;
-  height: 500px;
+  font-size: 20px;
+  background-color: #6edaf0;
+  width: 800px;
+  height: 400px;
   margin: auto;
+  border-radius: 55px 55px 55px 55px;
+-moz-border-radius: 55px 55px 55px 55px;
+-webkit-border-radius: 55px 55px 55px 55px;
+
+  padding: 20px;
+font-family: 'Fira Sans Extra Condensed', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#clock {
+  text-align: center;
 }
 
+#break-label {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  flex-direction: column;
+}
+#break-label h3 {
+  flex-grow: 1;
+  margin: 0;
+}
+#break-length {
+  margin: 20px 7px 20px 7px;
+}
+#session-length {
+  margin: 20px 7px 20px 7px;
+}
+#break-container {
+  display: flex;
+  align-items: center;
+}
+
+#session-label {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  flex-direction: column;
+}
+#session-label h3 {
+  flex-grow: 1;
+  margin: 0;
+}
+#session-container {
+  display: flex;
+}
+#timer-container {
+  display: block;
+}
+#timer-label  {
+  margin: 0;
+}
