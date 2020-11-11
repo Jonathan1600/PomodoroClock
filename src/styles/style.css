@@ -28,12 +28,16 @@ font-family: 'Fira Sans Extra Condensed', sans-serif;
 #clock {
   text-align: center;
 }
-
+#adjust-containers {
+  display: flex;
+  justify-content: center;
+}
 #break-label {
   display: flex;
   justify-content: center; 
   align-items: center;
   flex-direction: column;
+  margin: 0px 20px 0px 20px;
 }
 #break-label h3 {
   flex-grow: 1;
@@ -54,6 +58,7 @@ font-family: 'Fira Sans Extra Condensed', sans-serif;
   justify-content: center; 
   align-items: center;
   flex-direction: column;
+  margin: 0px 20px 0px 20px;
 }
 #session-label h3 {
   flex-grow: 1;
@@ -70,4 +75,8 @@ font-family: 'Fira Sans Extra Condensed', sans-serif;
 }
 svg {
   cursor: pointer;
+}
+
+@media (max-width: 600px) {
+
 }
