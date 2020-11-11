@@ -1,7 +1,8 @@
 
-body {
+
+html, body {
   background-color: #e8f9ff;
-  height: initial;
+  height: 100vh;
   margin: 0px;
   padding: 0px;
   display: flex;
